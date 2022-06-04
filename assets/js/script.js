@@ -116,6 +116,9 @@ var update = function () {
 update();
 
 $(".container").on("click", ".discription", function () {
+  if ($(this).prop("nodeName").trim() === "TEXTAREA") {
+    return;
+  }
   var classes = $(this).attr("class");
   var currentText = $(this).text().trim();
   var editText = $("<textarea>").addClass(classes).val(currentText);
