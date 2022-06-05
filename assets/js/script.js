@@ -87,9 +87,9 @@ var update = function () {
       futureWork(future);
       break;
     case "2pm":
-      var future = discription.slice(0, 5);
+      var past = discription.slice(0, 5);
       var present = discription[5];
-      var past = discription.slice(6);
+      var future = discription.slice(6);
       $(present).removeClass("past");
       $(present).removeClass("future");
       $(present).addClass("present");
