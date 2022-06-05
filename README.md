@@ -23,3 +23,7 @@
 -THEN the saved events persist
 
 ## About the page
+
+![Web App Screenshot](./assets/images/Screenshot.jpg)
+![Web App Screenshot(1)](<./assets/images/Screenshot(1).jpg>>)
+Visit the page!:[https://bradsw90.github.io/Work-Day-Scheduler/](https://bradsw90.github.io/Work-Day-Scheduler/)
